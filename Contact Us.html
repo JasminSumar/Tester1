@@ -1,0 +1,494 @@
+<!-- Colors: #000, #00FF0A-->
+<!-- Font:  <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">-->
+<!-- Name:  Frostbyte Syndicate-->
+<!-- Creator: Jasmin Sumar-->
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title> Contact Us </title>
+		<meta charset="utf-8">
+		<meta name="description" content="Frostbyte Syndicate">
+		<meta name="keywords" content="HTML, CSS">
+		<meta name="author" content="Jasmin">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="refresh" content="1000">
+		<link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/png" href="file:///C:/Users/Jassy/Downloads/Remove%20background%20project.png">
+		
+		<style>
+		
+			*{
+				margin: 0px;
+				color: #00FF0A;
+				font-family: 'Iceberg';
+			}
+			
+			body{
+				background-color: #000;
+				color: #00FF0A;
+			}
+			
+			header{
+				height: 7.2%;
+				width: 100%;
+				display: flex;
+				position: fixed;
+				z-index: 2;
+				background-color: #000;
+				font-size: 250%;
+				box-shadow: 0px 0 100px #00FF0A;
+			}
+			
+			#nav{
+				padding: 30px;
+			}
+
+			#logocontainer{
+				height: 7.2%;
+				width: 5%;
+				margin-top: 0px;
+				position: fixed; 
+				padding-left: 20px;
+			}
+			
+			a{
+				color: #00FF0A;
+				text-decoration: none;
+				margin-right: 30px;
+			}
+			
+			#home{
+				background: url(file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/ContactUs.png)no-repeat;
+				background-size: cover;
+				height: 150vh;
+				font-size: 100px;
+				text-shadow: 0px 0 50px #000;
+			}
+			
+			#main{
+				background-color: #000;
+				width: 100%;
+				height: 1800px;
+				justify-content: center;
+				align-items: center;
+				display: flex;
+				font-size: 1000%;
+			}
+			
+			table{
+				width: 100%;
+				border: none;
+			}
+			
+			#sm{
+				background-color: #00000099;
+				color: #00FF0A;
+				width: 80%;
+				height: 1000px;
+				padding: 8%;
+				font-size: 200%;
+				margin-left: 100px;
+				border: 2px solid #00FF0A;
+			}
+			
+			#sm2{
+				background-color: #000;
+				color: #00FF0A;
+				width: 500px;
+				height: auto;
+				border: solid 1px #000;
+				display: flex;
+				align-items: center;
+				font-size: 100%;
+				margin-left: 50px;
+			}
+			
+			.more{
+				color: #00FF0A;
+				background-color: #000;
+				text-decoration: none;
+			}
+			
+			.hover-container {
+				position: relative;
+				display: inline-block;
+			}
+
+			.hover-trigger {
+				cursor: pointer;
+			}
+
+			.dropdown-content {
+				color: #000;
+				visibility: hidden;
+				opacity: 0;
+				position: absolute;
+				background: #000;
+				padding: 10px;
+				border: 1px solid #00FF0A;
+				box-shadow: 0px 0px 0px #00FF0A;
+				z-index: 1;
+				width: 300px;
+				transition: 0.3s ease;
+				height: 250px;
+				overflow-y: auto;
+				white-space: normal;
+			}
+			
+			.hover-container:hover .dropdown-content {
+					visibility: visible;
+					opacity: 1;
+			}
+			
+			#contactandconect{
+				border: none;
+				border-radius: 30%;
+				color: #00FF0A;
+				background-color: #000;
+				width: 350px;
+				height: 150px;
+				font-size: 40px;
+				text-decoration: underline;
+			}
+			
+			#contactandconect:hover{
+				border: 2px solid #00FF0A;
+				border-radius: 0%;
+				transition: 1s;
+				text-decoration: none;
+			}
+			
+			#contact{
+				height: 400px;
+				width: 100%;
+				font-size: 20px;
+				
+			}
+			
+			footer{
+				align-items: center;
+				text-align: center;
+				font-size: 20px;
+				width: 100%;
+				padding-top: 80px;
+				height: 400px;
+				color: #00FF0A;
+				display: flex;
+				background: #444;
+			}
+			
+			#footer2{
+				width: 25%;
+				text-align: center;
+				align-items: center;
+				height: 400px;
+			}
+			
+			#caa{
+				color: #00FF0A;
+				background-color: #000;
+				border: solid 1px #00FF0A;
+				width: 800px;
+				height: 125px;
+				border-radius: 75px;
+				font-size: 50px;
+			}
+			
+			#bg-video {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100vw;
+				height: 100vh;
+				object-fit: cover;
+				z-index: -1;
+			}
+			
+			#other{
+				display: flex;
+				width: 100%;
+				height: 1300px;
+				background: transparent;
+				border: none;
+				margin-bottom: 3%;
+			}
+			
+			#contacts{
+				width: 44%;
+				height: 100%;
+				margin: 3%;
+				background: #00000099;
+				border: #00FF0A 1px solid;
+				color: #00FF0A;
+				padding: 20px;
+				font-size: 30px;
+			}
+			
+			#resub{
+				width: 10%;
+				height: 50px;
+				background: #000;
+				border: #00FF0A solid 1px;
+				color: #00FF0A;
+				margin: 1%;
+				font-size: 100%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			
+				<div id="logocontainer">
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Snowcone%20Company.html">
+						<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/SLogo.png" alt="Frostbyte Syndicate Logo" height="100%" width="auto">
+					</a>
+				</div>
+
+				<div id="nav">
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Snowcone%20Company.html">Menu</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Menu.html">Menu</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Calender.html">Calendar</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Login-SignUp.html" target="_blank">Log In</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Favorites.html">Favorites</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Snowcone%20Company.html#top3"> Top 3 Favorites</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Contact%20Us.html">Contact Us</a>		
+				</div>
+		</header>
+		
+		<video autoplay muted loop playsinline id="bg-video">
+			<source src="Images/rain.mp4" type="video/mp4">
+		</video>
+		
+		<section id="home">
+			<center style="padding-top: 200px; font-size: 150%;">
+				<h1>Social Media<br>&<br>Contact Us</h1>
+			</center>
+		</section>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<section id="sm">
+			<table style="height: 600px;">
+				<tr>
+					<th>
+						<h1 style="margin-left: 175px; font-size: 230%">S<br>O<br>C<br>I<br>A<br>L<br><br>M<br>E<br>D<br>I<br>A</h1>
+					</th>
+
+					<th>
+						<div class="hover-container">
+							<span class="hover-trigger"><button id="sm2">
+								<a href="https://www.instagram.com" target="_blank" style="display: flex; align-items: center;">
+									<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Instagram.png" alt="Instagram Icon" height="200px" width="200px"><h1>Instagram</h1>
+								</a>
+							</button></span>
+								<div class="dropdown-content">
+									<p>Follow Frostbyte Syndicate on Instagram to see our newest flavors, colorful creations, and limited-time deals. Quick Stories and Reels keep you updated on events and pop-ups so you never miss out.</p>
+								</div>
+						</div>
+						
+						
+						<br>
+							<div class="hover-container">
+								<span class="hover-trigger"><button id="sm2">
+									<a href="https://www.facebook.com" target="_blank" style="display: flex; align-items: center;">
+										<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Facebook.png" alt="Facebook Icon" height="200px" width="200px"><h1>Facebook</h1>
+									</a>
+								</button></span>
+								<div class="dropdown-content">
+									<p>By following us on Facebook, you’ll get official updates, event schedules, and business news. It’s the best place to connect with our community, join conversations, and learn more about what we’re building.</p>
+								</div>
+							</div>
+						
+						<br>
+							<div class="hover-container">
+								<span class="hover-trigger"><button id="sm2">
+									<a href="https://www.pintrest.com" target="_blank" style="display: flex; align-items: center;">
+										<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Pinterest.png" alt="Pintrest Icon" height="200px" width="200px"><h1>Pintrest</h1>
+									</a>
+								</button></span>
+								<div class="dropdown-content">
+									<p>On Pinterest, our boards inspire you with party ideas, DIY snow cone fun, and creative ways to enjoy Frostbyte Syndicate. It’s where you’ll find lifestyle tips that make every gathering brighter.</p>
+								</div>
+							</div>
+						
+						<br>
+						
+							<div class="hover-container">
+								<span class="hover-trigger"><button id="sm2">
+									<a href="https://www.youtube.com/" target="_blank" style="display: flex; align-items: center;">
+										<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Youtube.png" alt="Youtube Icon" height="200px" width="200px"><h1>Youtube</h1>
+									</a>
+								</button></span>
+								<div class="dropdown-content">
+									<p>Subscribe to our YouTube channel to watch behind-the-scenes videos, tutorials, and event highlights. You’ll learn more about our business story while staying in the loop on new launches.</p>
+								</div>
+							</div>
+						
+						<br>
+						
+						<div class="hover-container">
+								<span class="hover-trigger"><button id="sm2">
+									<a href="https://www.spotify.com/" target="_blank" style="display: flex; align-items: center;">
+										<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Spotify.png" alt="Spotify Icon" height="200px" width="200px"><h1>Spotify</h1>
+									</a>
+								</button></span>
+								<div class="dropdown-content">
+									<p>Follow Frostbyte Syndicate on Spotify for playlists that match our vibe—summer jams, chill tracks, and themed mixes. It’s a fun way to connect with our brand personality while enjoying music tied to our campaigns.</p>
+								</div>
+							</div>
+
+					</th>
+					
+					<th>
+						<center>
+							<h1 style="font-size: 700%;">Contact Us</h1>
+							<h1 style="font-size: 300%;">(954)123-456<br>123456@gmail.com<br><button id="caa"><a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Login-SignUp.html"target="_blank">Create an account or Login</button></h1>
+						</center>
+					</th>						
+				</tr>
+			</table>
+		</section>
+		
+		<section id="other">
+		
+			<div id="contacts">
+				<h1><u>Contact Information</u></h1>
+					<form style="color: #00FF0A; font-size: 35px;">
+					
+						<br>
+					
+						First Name: <input type="text" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br>
+						Last Name: <input type="text" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br>
+						E-mail: <input type="text" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br>
+						Login: <input type="text" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br>
+						Password: <input type="password" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br><br>
+						
+						Select Your Preferred Method of Contact:
+						<br>
+						<input type="radio" name="favcontact" value="Email"> Email
+						<br>
+						<input type="radio" name="favcontact" value="Text"> Text
+						<br>
+						<input type="radio" name="favcontact" value="Phone">Phone
+					
+						<br><br>
+						
+						<input type="submit" id="resub"><input type="reset" id="resub">
+					</form>
+			</div>
+			
+			<div id="contacts">
+				<h1><u>Review or Complaint</u></h1>
+				
+				<br>
+				
+					<form style="color: #00FF0A; font-size: 35px;">
+						First Name: <input type="text" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br>
+						Last Name: <input type="text" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br>
+						E-mail: <input type="text" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br>
+						Login: <input type="text" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br>
+						Password: <input type="password" required="required" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;">
+						<br><br>
+						
+						What Issues Are You Having? Select All That Apply:
+						<br>
+						<input type="checkbox" value="yes"> Billing
+						<br>
+						<input type="checkbox" value="yes"> Shipping
+						<br>
+						<input type="checkbox" value="yes"> Problem with Product
+						<br><br>
+						
+						Select reveiw complaint type:
+						<select size="1" style="background: #000; font-size: 35px; border: #00FF0A solid 1px;">
+							<option> Select</option>
+							<option value="complaint"> Complaint </option>
+							<option value="reveiw"> Review </option>
+							<option value="Other"> Other </option>
+						</select>
+						
+						<br>
+						<br>
+						
+						Select Your Preferred Method of Contact:
+						<br>
+						<input type="radio" name="favcontact" value="Email"> Email
+						<br>
+						<input type="radio" name="favcontact" value="Text"> Text
+						<br>
+						<input type="radio" name="favcontact" value="Phone">Phone
+						<br><br>
+						
+						Comments:
+						<br>
+						<textarea cols="40" rows="8" style="background: #000; color: #00FF0A; border: #00FF0A 1px solid; font-size: 25px;"> Please Describe Your Situation </textarea>
+						
+						<br><br>
+						
+						<input type="submit" id="resub"><input type="reset" id="resub">
+					</form>
+			</div>
+			
+		</section>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<footer>
+			<div id="footer2">
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Snowcone%20Company.html">Frostbyte Syndicate</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Contact%20Us.html">Contact Us</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Calender.html">Calender</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Menu.html">Menu</a><br><br>
+			</div>
+			
+			<div id="footer2">
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Favorites.html">Favorites</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/About Us.html">About Us</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Locations.html">Locations</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Experiences.html">Experiences</a><br><br>
+			</div>
+
+			<div id="footer2">
+				<section id="contact">
+					<center>
+						<h1>Stay updated with the<br>latest news in the Syndicate</h1>
+						
+						<br>
+							<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Contact%20Us.html" target="_blank">
+								<button id="contactandconect" style="background-color: #444;">
+									Contact & Connect
+								</button>
+							</a>
+					</center>
+				</section>
+			</div>
+			
+			<div id="footer2">
+				<a href="https://www.instagram.com">Instagram</a><br><br>
+				<a href="https://www.facebook.com">Facebook</a><br><br>
+				<a href="https://www.pintrest.com">Pintrest</a><br><br>
+				<a href="https://www.youtube.com/">YouTube</a><br><br>
+				<a href="https://www.spotify.com/">Spotify</a>
+			</div>
+			
+		</footer>
+		
+	</body>    	
+</html> 

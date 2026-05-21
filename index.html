@@ -1,0 +1,412 @@
+<!-- Colors: #000, #00FF0A-->
+<!-- Font:  <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">-->
+<!-- Name:  Frostbyte Syndicate-->
+<!-- Creator: Jasmin Sumar-->
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title> Frostbyte Syndicate </title>
+		<meta charset="utf-8">
+		<meta name="description" content="Frostbyte Syndicate">
+		<meta name="keywords" content="HTML, CSS">
+		<meta name="author" content="Jasmin">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="refresh" content="1000">
+		<link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/png" href="file:///C:/Users/Jassy/Downloads/Remove%20background%20project.png">
+		
+		<style>
+		
+			*{
+				margin: 0px;
+				color: #00FF0A;
+				font-family: 'Iceberg';
+			}
+			
+			body{
+				background-color: #000;
+				color: #00FF0A;
+			}
+			
+			header{
+				height: 7.2%;
+				width: 100%;
+				display: flex;
+				position: fixed;
+				z-index: 2;
+				background-color: #000;
+				font-size: 250%;
+				box-shadow: 0px 0 180px #00FF0A;
+			}
+			
+			#nav{
+				padding: 30px;
+			}
+
+			#logocontainer{
+				height: 7.2%;
+				width: 5%;
+				margin-top: 0px;
+				position: fixed;
+				padding-left: 20px;
+			}
+			
+			a{
+				color: #00FF0A;
+				text-decoration: none;
+				margin-right: 30px;
+			}
+			
+			#home{
+				background: url(file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/3greensnowcones.png)no-repeat;
+				background-size: cover;
+				height: 150vh;
+				font-size: 100px;
+				text-shadow: 0px 0 100px #000;
+			}
+			
+			#top3{
+				width: 94%;
+				height: 2000px;
+				justify-content: center;
+				align-items: center;
+				display: flex;
+				border: 1px solid #00FF0A;
+				background: #00000099;
+				margin: 3%;
+			}
+			
+			table{
+				width: 100%;
+				border: none;
+				background: transparent;
+			}
+			
+			#top{
+				width: 90%;
+				height: auto;
+				border: none;
+				padding-right: 30px;
+				padding-left: 30px;
+				padding-bottom: 30px;
+				padding-top: 0px;
+				border-radius: 20px;
+				font-size: 375%;
+				background: transparent;
+			}
+			
+			#sm{
+				color: #00FF0A;
+				width: 90%;
+				height: 1300px;
+				background: #00000099;
+				border: 1px solid #00FF0A;
+				margin-left: 100px;
+				padding: 50px;
+				font-size: 200%;
+			}
+			
+			#sm2{
+				background-color: #000;
+				color: #00FF0A;
+				width: 500px;
+				height: auto;
+				border: solid 1px #000;
+				display: flex;
+				align-items: center;
+				font-size: 100%;
+				margin-left: 50px;
+			}
+			
+			.more{
+				color: #00FF0A;
+				background-color: #000;
+				text-decoration: none;
+			}
+			
+			#contactandconect{
+				border: none;
+				border-radius: 30%;
+				background-color: #00000099;
+				color: #00FF0A;
+				width: 350px;
+				height: 150px;
+				font-size: 40px;
+				text-decoration: underline;
+			}
+			
+			#contactandconect:hover{
+				border: 2px solid #00FF0A;
+				border-radius: 0%;
+				transition: 1s;
+				background: #000;
+				text-decoration: none;
+			}
+			
+			#contact{
+				height: 400px;
+				width: 100%;
+				font-size: 20px;
+			}
+			
+			#contactbar{
+				height: 400px;
+				background: #00000099;
+				width: 94%;
+				margin-bottom: 3%;
+				margin-left: 3%;
+				padding-top: 50px;
+				margin-right: 3%;
+				border: 1px solid #00FF0A;
+				item-align: center;
+				text-align: center;
+			}
+			
+			footer{
+				align-items: center;
+				text-align: center;
+				font-size: 20px;
+				width: 100%;
+				padding-top: 80px;
+				height: 400px;
+				color: #00FF0A;
+				display: flex;
+				background: #444;
+			}
+			
+			#footer2{
+				width: 25%;
+				text-align: center;
+				align-items: center;
+				height: 400px;
+			}
+			
+			.matrix-bar {
+			  position: fixed;
+			  top: 0;
+			  left: 10px;
+			  bottom: 0;
+			  width: 10px;
+			  background: #00FF0A;
+			  box-shadow: 0 0 12px #00FF0A, 0 0 24px #00FF0A;
+			  animation: ltr 10s linear infinite;
+			  overflow: visible;
+			}
+
+			@keyframes ltr {
+			  0%   { left: -20px; }
+			  100% { left: 100vw; }
+			}
+			
+			#caa{
+				color: #00FF0A;
+				background-color: #000;
+				border: solid 1px #00FF0A;
+				width: 800px;
+				height: 125px;
+				border-radius: 75px;
+				font-size: 50px;
+			}
+			
+			#bg-video {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100vw;
+				height: 100vh;
+				object-fit: cover;
+				z-index: -1;
+			}
+		</style>
+	</head>
+	
+	<body>
+		
+		<header>
+			
+				<div id="logocontainer">
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Snowcone%20Company.html">
+						<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/SLogo.png" alt="Frostbyte Syndicate Logo" height="100%" width="auto">
+					</a>
+				</div>
+
+				<div id="nav">
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Snowcone%20Company.html">Menu</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Menu.html">Menu</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Calender.html">Calendar</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Login-SignUp.html" target="_blank">Log In</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Favorites.html">Favorites</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Snowcone%20Company.html#top3"> Top 3 Favorites</a>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Contact%20Us.html">Contact Us</a>		
+				</div>
+		</header>
+		
+		<div id="changing">
+			<div class="matrix-bar">
+			</div>
+		</div>
+
+		<video autoplay muted loop playsinline id="bg-video">
+			<source src="Images/rain.mp4" type="video/mp4">
+		</video>
+
+		
+		<section id="home">
+			<center style="padding-top: 200px; font-size: 150%;">
+				<h1>FR05TBYT3<br>5YND!CATE</h1>
+			</center>
+		</section>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<section id="sm">
+			<table style="height: 600px;">
+				<tr>
+					<th>
+						<h1 style="margin-left: 175px; font-size: 230%; background-color: #000; padding: 0px; border-radius: 75px;">S<br>O<br>C<br>I<br>A<br>L<br><br>M<br>E<br>D<br>I<br>A</h1>
+					</th>
+
+					<th>
+						<button id="sm2">
+							<a href="https://www.instagram.com" target="_blank" style="display: flex; align-items: center; border-radius: 20px;">
+								<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Instagram.png" alt="Instagram Icon" height="200px" width="200px"><h1>Instagram</h1>
+							</a>
+						</button>
+						
+						<br>
+				
+						<button id="sm2">
+							<a href="https://www.facebook.com/" target="_blank" style="display: flex; align-items: center; border-radius: 20px;">
+								<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Facebook.png" alt="Facebook Icon" height="200px" width="200px"><h1>Facebook</h1>
+							</a>
+						</button>
+						
+						<br>
+						
+						<button id="sm2">
+							<a href="https://www.pintrest.com/" target="_blank" style="display: flex; align-items: center; border-radius: 20px;">
+								<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Pinterest.png" alt="Pintrest Icon" height="200px" width="200px"><h1>Pintrest</h1>
+							</a>
+						</button>
+						
+						<br>
+						
+						<button id="sm2">
+							<a href="https://www.youtube.com/" target="_blank" style="display: flex; align-items: center; border-radius: 20px;">
+								<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Youtube.png" alt="Youtube Icon" height="200px" width="200px"><h1>Youtube</h1>
+							</a>
+						</button>
+						
+						<br>
+						
+						<button id="sm2">
+							<a href="https://www.spotify.com/" target="_blank" style="display: flex; align-items: center; border-radius: 20px;">
+								<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/Spotify.png" alt="Spotify Icon" height="200px" width="200px"><h1>Spotify</h1>
+							</a>
+						</button>
+					</th>
+					
+					<th>
+						<center>
+							<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Contact%20Us.html">
+								<h1 style="font-size: 700%;">Contact Us</h1>
+								<h1 style="font-size: 300%;">(954)123-456<br>123456@gmail.com<br><button id="caa"><a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Login-SignUp.html"target="_blank">Create an account or Login</button></h1>
+							</a>
+						</center>
+					</th>						
+				</tr>
+			</table>
+		</section>
+		
+		<section id="top3">
+			<table>
+				<tr>
+					<th>
+						<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Favorites.html">
+							<button id="top">
+								<img src="file:///C:/Users/Jassy/Downloads/conesnowcone.png" alt="green snowcone in cone" width="100%" height="auto">
+								<figcaption style="background: #000; border-radius: 20px; padding: 10px;">snowcone.favorites("cone.<br>code",{flavor: "pear"});</figcaption>
+							</button>
+						</a>
+					</th>
+					
+					<th>
+						<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Favorites.html">
+							<button id="top">
+								<img src="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Images/green%20snowcone.png" alt="green snowcone" width="100%" height="auto">
+								<figcaption style="background: #000; border-radius: 20px; padding: 10px;">snowcone.favorites("simple.<br>snow",{ flavor: "green apple" });</figcaption>
+							</button>
+						</a>
+					</th>
+					
+					<th>
+						<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Favorites.html">
+							<button id="top">
+								<img src="file:///C:/Users/Jassy/Downloads/conesnowcone2.png" alt="green snowcone in cone with apple" width="100%" height="auto">
+								<figcaption style="background: #000; border-radius: 20px; padding: 10px;">snowcone.favorites("mint.m",<br>{ flavor: "mint" });</figcaption>
+							</button>
+						</a>
+					</th>
+				</tr>
+			</table>
+		</section>
+		
+		<section id="contactbar">
+			<center>
+				<h1 style="font-size: 55px;">Stay updated with the<br>latest news in the Syndicate</h1>
+				
+				<br>
+					<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Contact%20Us.html" target="_blank">
+						<button id="contactandconect" style="width: 500px; height: 200px; font-size: 55px;">
+							Contact & Connect
+						</button>
+					</a>
+			</center>
+		</section>
+		
+		<footer>
+			<div id="footer2">
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Snowcone%20Company.html">Frostbyte Syndicate</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Contact%20Us.html">Contact Us</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Calender.html">Calender</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Menu.html">Menu</a><br><br>
+			</div>
+			
+			<div id="footer2">
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Favorites.html">Favorites</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/About Us.html">About Us</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Locations.html">Locations</a><br><br>
+				<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Experiences.html">Experiences</a><br><br>
+			</div>
+
+			<div id="footer2">
+				<section id="contact">
+					<center>
+						<h1>Stay updated with the<br>latest news in the Syndicate</h1>
+						
+						<br>
+							<a href="file:///C:/Users/Jassy/OneDrive/School/Notepad++/Foundations%20To%20Web%20Design%2025-26/Websites/Snowcone%20Company/Contact%20Us.html" target="_blank">
+								<button id="contactandconect" style="background-color: #444;">
+									Contact & Connect
+								</button>
+							</a>
+					</center>
+				</section>
+			</div>
+			
+			<div id="footer2">
+				<a href="https://www.instagram.com">Instagram</a><br><br>
+				<a href="https://www.facebook.com">Facebook</a><br><br>
+				<a href="https://www.pintrest.com">Pintrest</a><br><br>
+				<a href="https://www.youtube.com/">YouTube</a><br><br>
+				<a href="https://www.spotify.com/">Spotify</a>
+			</div>
+			
+		</footer>
+		
+	</body>    	
+</html> 
